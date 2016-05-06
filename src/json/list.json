@@ -1,0 +1,345 @@
+[
+  {
+    "name": {
+      "th": "การโปรแกรมเชิงวัตถุ I",
+      "en": "Object-Oriented Programming I"
+    },
+    "id": "01219111"
+  },
+  {
+    "name": {
+      "th": "เทคโนโลยีสารสนเทศเบื้องต้น",
+      "en": "Introduction to Information Technology"
+    },
+    "id": "01219112"
+  },
+  {
+    "name": {
+      "th": "การโปรแกรมเชิงวัตถุ II",
+      "en": "Object-Oriented Programming II"
+    },
+    "id": "01219113"
+  },
+  {
+    "name": {
+      "th": "ค่ายฝึกพัฒนาซอฟต์แวร์",
+      "en": "Software Development Training Camp"
+    },
+    "id": "01219211"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการชนิดข้อมูลนามธรรม",
+      "en": "Abstract Data Types Laboratory"
+    },
+    "id": "01219212"
+  },
+  {
+    "name": {
+      "th": "ทักษะการสื่อสารสำหรับวิศวกรซอฟต์แวร์และความรู้",
+      "en": "Communication Skills for Software and Knowledge Engineers"
+    },
+    "id": "01219213"
+  },
+  {
+    "name": {
+      "th": "ความน่าจะเป็นและสถิติสำหรับวิศวกรซอฟต์แวร์และความรู้",
+      "en": "Probability and Statistics for Software and Knowledge Engineers"
+    },
+    "id": "01219214"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการระบบคอมพิวเตอร์",
+      "en": "Computer System Laboratory"
+    },
+    "id": "01219215"
+  },
+  {
+    "name": {
+      "th": "ระบบปฏิบัติการสำหรับวิศวกรซอฟต์แวร์และความรู้",
+      "en": "Operating Systems for Software and Knowledge Engineers"
+    },
+    "id": "01219216"
+  },
+  {
+    "name": {
+      "th": "องค์กรและสถาปัตยกรรมคอมพิวเตอร์",
+      "en": "Computer Organization and Architecture"
+    },
+    "id": "01219221"
+  },
+  {
+    "name": {
+      "th": "ข้อกำหนดและการออกแบบซอฟต์แวร์",
+      "en": "Software Specification and Design"
+    },
+    "id": "01219243"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการข้อกำหนดและการออกแบบซอฟต์แวร์",
+      "en": "Software Specification and Design Laboratory"
+    },
+    "id": "01219244"
+  },
+  {
+    "name": {
+      "th": "กระบวนการพัฒนาซอฟต์แวร์เชิงเดี่ยว",
+      "en": "Individual Software Development Process"
+    },
+    "id": "01219245"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการกระบวนการพัฒนาซอฟต์แวร์เชิงบุคคล",
+      "en": "Individual Software Development Process Laboratory"
+    },
+    "id": "01219246"
+  },
+  {
+    "name": {
+      "th": "วิศวกรรมความรู้และการจัดการความรู้",
+      "en": "Knowledge Engineering and Knowledge Management"
+    },
+    "id": "01219271"
+  },
+  {
+    "name": {
+      "th": "การสื่อสารข้อมูลและการโปรแกรมคอมพิวเตอร์เครือข่าย",
+      "en": "Data Communication and Computers Networks Programming"
+    },
+    "id": "01219321"
+  },
+  {
+    "name": {
+      "th": "วิศวกรรมพาณิชย์อิเล็กทรอนิกส์",
+      "en": "Electronic Commerce Engineering"
+    },
+    "id": "01219322"
+  },
+  {
+    "name": {
+      "th": "คลังข้อมูล",
+      "en": "Data Warehouse"
+    },
+    "id": "01219332"
+  },
+  {
+    "name": {
+      "th": "การทำเหมืองข้อมูลเบื้องต้น",
+      "en": "Introduction to Data Mining"
+    },
+    "id": "01219333"
+  },
+  {
+    "name": {
+      "th": "การประมวลผลรายการเปลี่ยนแปลง",
+      "en": "Transaction Processing"
+    },
+    "id": "01219334"
+  },
+  {
+    "name": {
+      "th": "การทดสอบซอฟต์แวร์",
+      "en": "Software Testing"
+    },
+    "id": "01219343"
+  },
+  {
+    "name": {
+      "th": "การพัฒนาซอฟต์แวร์บนอุปกรณ์เคลื่อนที่",
+      "en": "Mobile Software Development"
+    },
+    "id": "01219344"
+  },
+  {
+    "name": {
+      "th": "กระบวนการพัฒนาซอฟต์แวร์เชิงกลุ่มงาน",
+      "en": "Workgroup Software Development Process"
+    },
+    "id": "01219347"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการกระบวนการพัฒนาซอฟต์แวร์เชิงกลุ่มงาน",
+      "en": "Workgroup Software Development Process Laboratory"
+    },
+    "id": "01219348"
+  },
+  {
+    "name": {
+      "th": "การพัฒนาซอฟต์แวร์ประยุกต์บนเว็บ",
+      "en": "Web Application Development"
+    },
+    "id": "01219351"
+  },
+  {
+    "name": {
+      "th": "อัจฉริยะเชิงธุรกิจ",
+      "en": "Business Intelligence"
+    },
+    "id": "01219361"
+  },
+  {
+    "name": {
+      "th": "การเรียนรู้ของเครื่องจักร",
+      "en": "Machine Learning"
+    },
+    "id": "01219362"
+  },
+  {
+    "name": {
+      "th": "การแทนความรู้",
+      "en": "Knowledge Representation"
+    },
+    "id": "01219363"
+  },
+  {
+    "name": {
+      "th": "การค้นพบความรู้",
+      "en": "Knowledge Discovery"
+    },
+    "id": "01219364"
+  },
+  {
+    "name": {
+      "th": "เทคโนโลยีสารสนเทศสำหรับการจัดการความรู้",
+      "en": "Information Technology for Managing Knowledge"
+    },
+    "id": "01219371"
+  },
+  {
+    "name": {
+      "th": "การจัดการนวัตกรรม",
+      "en": "Innovation Management"
+    },
+    "id": "01219373"
+  },
+  {
+    "name": {
+      "th": "วิศวกรรมข้อมูลสื่อประสม",
+      "en": "Multimedia Data Engineering"
+    },
+    "id": "01219381"
+  },
+  {
+    "name": {
+      "th": "พลวัติเชิงกลุ่มและจิตวิทยา",
+      "en": "Group Dynamics and Psychology"
+    },
+    "id": "01219391"
+  },
+  {
+    "name": {
+      "th": "ความมั่นคงของระบบคอมพิวเตอร์",
+      "en": "Computer Systems Security"
+    },
+    "id": "01219411"
+  },
+  {
+    "name": {
+      "th": "การเขียนเชิงเทคนิคสำหรับวิศวกรซอฟต์แวร์และความรู้",
+      "en": "Technical Writing for Software and Knowledge Engineers"
+    },
+    "id": "01219412"
+  },
+  {
+    "name": {
+      "th": "ปฏิบัติการแบบรูปและสถาปัตยกรรมซอฟต์แวร์",
+      "en": "Software Patterns and Architecture Laboratory"
+    },
+    "id": "01219448"
+  },
+  {
+    "name": {
+      "th": "แบบรูปและสถาปัตยกรรมซอฟต์แวร์",
+      "en": "Software Patterns and Architecture"
+    },
+    "id": "01219449"
+  },
+  {
+    "name": {
+      "th": "เทคโนโลยีการบริการเว็บ",
+      "en": "Web Services Technology"
+    },
+    "id": "01219451"
+  },
+  {
+    "name": {
+      "th": "การวิเคราะห์เนื้อหาสื่อประสม",
+      "en": "Multimedia Content Analysis"
+    },
+    "id": "01219481"
+  },
+  {
+    "name": {
+      "th": "การนำเสนอแบบสื่อหลายมิติ",
+      "en": "Hypermedia Presentation"
+    },
+    "id": "01219482"
+  },
+  {
+    "name": {
+      "th": "ศิลปศาสตร์ดิจิทัล",
+      "en": "Digital Arts"
+    },
+    "id": "01219483"
+  },
+  {
+    "name": {
+      "th": "สหกิจศึกษา",
+      "en": "Cooperative Education"
+    },
+    "id": "01219490"
+  },
+  {
+    "name": {
+      "th": "ระเบียบวิธีวิจัยเบื้องต้นทางวิศวกรรมซอฟต์แวร์และความรู้",
+      "en": "Introduction to Research Methods in Software and Knowledge Engineering"
+    },
+    "id": "01219491"
+  },
+  {
+    "name": {
+      "th": "การเป็นผู้ประกอบการซอฟต์แวร์",
+      "en": "Software Entrepreneurship"
+    },
+    "id": "01219492"
+  },
+  {
+    "name": {
+      "th": "โครงงานรายบุคคลวิศวกรรมซอฟต์แวร์และความรู้",
+      "en": "Software and Knowledge Engineering Individual Project"
+    },
+    "id": "01219495"
+  },
+  {
+    "name": {
+      "th": "เรื่องเฉพาะทางวิศวกรรมซอฟต์แวร์และความรู้",
+      "en": "Selected Topics in Software and Knowledge Engineering"
+    },
+    "id": "01219496"
+  },
+  {
+    "name": {
+      "th": "สัมมนา",
+      "en": "Seminar"
+    },
+    "id": "01219497"
+  },
+  {
+    "name": {
+      "th": "ปัญหาพิเศษ",
+      "en": "Special Problems"
+    },
+    "id": "01219498"
+  },
+  {
+    "name": {
+      "th": "โครงงานกลุ่มนวัตกรรมซอฟต์แวร์",
+      "en": "Innovative Software Group Project"
+    },
+    "id": "01219499"
+  }
+]

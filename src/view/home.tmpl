@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>Course</h2>
+
+  <div ng-controller="CourseController as courseList">
+    <label>Search: <input ng-model="searchText"></label><br><br>
+      <ul ng-repeat="list in lists | filter:searchText" id="searchTextChange">
+        <a ng-click="launch('create')">{{list.id}} {{list.name.en}}</a>
+      </ul>
+  </div>
+
+</div>
+
+<!-- <html>
+  <body>
+    <ul class="sidebar">
+      <li class="sidebar-brand"><a href="">Home</a></li>
+      <li><a href="#section-enrollment">Enrollment</a></li>
+      </ul>
+  </body>
+
+  <div class="tab-content" id="section-enrollment">
+    <h2>Course</h2>
+
+    <div ng-controller="CourseController as courseList">
+      <label>Search: <input ng-model="searchText"></label><br><br>
+        <ul ng-repeat="list in lists | filter:searchText" id="searchTextChange">
+          <a ng-click="launch('create')">{{list.id}} {{list.name.en}}</a>
+        </ul>
+    </div>
+  </div>
+</html> -->

@@ -1,0 +1,23 @@
+{
+  "name": {
+    "th": "โครงงานกลุ่มนวัตกรรมซอฟต์แวร์",
+    "en": "Innovative Software Group Project"
+  },
+  "credit": {
+    "self": 6,
+    "lab": 3,
+    "total": 3,
+    "lecture": 2
+  },
+  "prereq": [
+    {
+      "simultaneous": false,
+      "id": "01219490"
+    }
+  ],
+  "description": {
+    "th": "โครงงานกลุ่มระยะยาวในการสร้างและพัฒนาเครื่องมือนวัตกรรมในงานด้านวิศวกรรมซอฟต์แวร์และความรู้",
+    "en": "Long-term workgroup project on production and development of innovative tools for software and knowledge engineering."
+  },
+  "id": "01219499"
+}
