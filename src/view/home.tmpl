@@ -1,31 +1,54 @@
+<html>
 <div class="container">
   <h2>Course</h2>
 
   <div ng-controller="CourseController as courseList">
     <label>Search: <input ng-model="searchText"></label><br><br>
       <ul ng-repeat="list in lists | filter:searchText" id="searchTextChange">
-        <a ng-click="launch('create')">{{list.id}} {{list.name.en}}</a>
+        <div collapse-toggler class="toggler">{{list.id}} {{list.name.en}}</div>
+        <div class="collapse">
+          {{list.id}}
+        </div>
       </ul>
+  </div>
+
   </div>
 
 </div>
 
-<!-- <html>
-  <body>
-    <ul class="sidebar">
-      <li class="sidebar-brand"><a href="">Home</a></li>
-      <li><a href="#section-enrollment">Enrollment</a></li>
-      </ul>
-  </body>
 
-  <div class="tab-content" id="section-enrollment">
-    <h2>Course</h2>
+  <!-- <div class="container"> -->
+    <!-- <nav class="nav-sidebar">
+  		<ul class="sidebar">
+            <li class="sidebar-brand"><a href="">KU</a></li>
+            <li class="active"><a href="#tab1" data-toggle="tab">Enrollment</a></li>
+            <li class=""><a href="#tab2" data-toggle="tab">testt</a></li>
+            <li class=""><a href="#tab3" data-toggle="tab">AAAA</a></li>
+  		</ul>
+  	</nav> -->
 
-    <div ng-controller="CourseController as courseList">
-      <label>Search: <input ng-model="searchText"></label><br><br>
-        <ul ng-repeat="list in lists | filter:searchText" id="searchTextChange">
-          <a ng-click="launch('create')">{{list.id}} {{list.name.en}}</a>
-        </ul>
+  <!-- tab content -->
+    <!-- <div class="tab-content">
+      <div class="tab-pane active text-style" id="tab1">
+        <h2>Course</h2>
+        <div ng-controller="CourseController as courseList">
+          <label>Search: <input ng-model="searchText"></label><br><br>
+            <ul ng-repeat="list in lists | filter:searchText" id="searchTextChange">
+              <a ng-click="">{{list.id}} {{list.name.en}}</a>
+            </ul>
+        </div>
+      </div> -->
+
+      <!-- <div class="tab-pane text-style" id="tab2">
+        <h2>testtt</h2>
+      </div>
+
+      <div class="tab-pane text-style" id="tab3">
+        <h2>aaaa</h2>
+      </div>
     </div>
-  </div>
-</html> -->
+  </div> -->
+
+
+
+</html>

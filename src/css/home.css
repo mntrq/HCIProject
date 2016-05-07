@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: 'Open Sans', sans-serif;
   font-size:14px;
 }
@@ -47,7 +47,7 @@ padding: 20px;
   bottom:0;
   left:0;
   text-align:left;
-  position: absolute;
+  position: fixed;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -76,4 +76,16 @@ padding: 20px;
 height: 65px;
 font-size: 18px;
 line-height: 60px;
+}
+
+.tab-content{
+  text-align: center;;
+}*/
+
+.collapse{
+  text-indent: 50px;
+}
+
+.toggler {
+  cursor: pointer;
 }
