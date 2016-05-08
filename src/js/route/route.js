@@ -1,4 +1,4 @@
-angular.module('courseApp')
+angular.module('controllerApp')
 .config(function($stateProvider, $urlRouterProvider) {
   //
   // For any unmatched url, redirect to /home
@@ -10,8 +10,9 @@ angular.module('courseApp')
       url: "/enroll",
       templateUrl: "src/view/enroll.tmpl"
     })
-    .state('changepage', {
-      url: "/changepage",
-      templateUrl: "src/view/changepage.tmpl"
+    .state('withdraw', {
+      url: "/withdraw",
+      templateUrl: "src/view/withdraw.tmpl",
+
     })
 });

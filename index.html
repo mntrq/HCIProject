@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="courseApp">
+<html ng-app="controllerApp">
   <head>
     <!-- CSS file -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -26,7 +26,7 @@
     <script src="bower_components/angular-toArrayFilter/toArrayFilter.js"></script>
 
     <!-- App controller -->
-    <script src="src/js/controller/enroll.js"></script>
+    <script src="src/js/controller/controller.js"></script>
     <script src="src/js/route/route.js"></script>
 
 
@@ -35,13 +35,6 @@
     <!-- <ul class="nav nav-pills">
     <li role="presentation"><a ui-sref="home">Home</a></li>
     <li role="presentation"><a ui-sref="changepage">Change Page</a></li> -->
-    <nav class="indexmenu">
-      <ul>
-        <li class="active"><a ui-sref="enroll">Registration</a></li>
-        <li><a href="#">Withdrawal</a></li>
-        <li><a href="#">Report</a></li>
-      </ul>
-    </nav>
   </ul>
 
     <div ui-view></div>
