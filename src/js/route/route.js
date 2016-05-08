@@ -12,7 +12,10 @@ angular.module('controllerApp')
     })
     .state('withdraw', {
       url: "/withdraw",
-      templateUrl: "src/view/withdraw.tmpl",
-
+      templateUrl: "src/view/withdraw.tmpl"
+    })
+    .state('report', {
+      url: "/report",
+      templateUrl: "src/view/report.tmpl"
     })
 });
