@@ -2,10 +2,14 @@ angular.module('controllerApp')
 .config(function($stateProvider, $urlRouterProvider) {
   //
   // For any unmatched url, redirect to /home
-  $urlRouterProvider.otherwise("/enroll");
+  $urlRouterProvider.otherwise("/login");
   //
   // Now set up the states
   $stateProvider
+    .state('login', {
+      url: "/login",
+      templateUrl: "src/view/login.tmpl"
+    })
     .state('enroll', {
       url: "/enroll",
       templateUrl: "src/view/enroll.tmpl"
