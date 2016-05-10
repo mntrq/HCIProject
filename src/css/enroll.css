@@ -50,7 +50,7 @@ body {
 .card .action-bar ul {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 20%;
   position: relative;
   overflow: hidden;
 }
@@ -66,24 +66,13 @@ body {
   /*color: #666;*/
 }
 .card .action-bar li a:hover, .card .action-bar li a:focus {
-  /*color: #000;*/
+  color: #000;
   text-decoration: none;
 }
 .card .action-bar li.comments {
   width: 60%;
   text-align: left;
   padding: 0 1.5em;
-}
-.card .action-bar li.comments .comments-link {
-  font-size: .7em;
-  font-weight: bold;
-}
-.card .action-bar li.share, .card .action-bar li.like {
-  width: 20%;
-}
-.card .action-bar li.share {
-  /*border: solid #eee;*/
-  border-width: 0 1px 0 0;
 }
 
 .search-container {
@@ -126,12 +115,8 @@ input#search-bar:focus:-ms-placeholder {
   right: -15px;
 }
 
-
-
 button[type=button]:disabled {
     cursor: not-allowed;;
-    counter: "Enrolled";
-
 }
 
 

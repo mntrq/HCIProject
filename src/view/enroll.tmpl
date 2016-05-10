@@ -24,10 +24,10 @@
         <div class="action-bar"> <!--start action-bar-->
     			<ul>
     				<li class="comments">
-    					<p>Credit: {{x.credit.total}}({{x.credit.lecture}}-{{x.credit.lab}}-{{x.credit.self}})</p>
+    					<p>Credit: {{x.credit.total}}({{x.credit.lecture}}-{{x.credit.lab}}-{{x.credit.self}})></p>
     				</li>
 
-            <button ng-disabled="courseCtrl.isRegistered(x.id)" ng-click="courseCtrl.getEachCourse(x.id)" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Enroll</button>
+            <button id="enrollbutt"ng-disabled="courseCtrl.isRegistered(x.id)" ng-click="courseCtrl.getEachCourse(x.id)" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Enroll</button>
 
           </ul>
     	  </div> <!--end action-bar-->
