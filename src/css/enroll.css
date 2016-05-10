@@ -130,7 +130,7 @@ input#search-bar:focus:-ms-placeholder {
 
 button[type=button]:disabled {
     cursor: not-allowed;;
-    /*color: black;*/
+    counter: "Enrolled";
 
 }
 
@@ -201,4 +201,9 @@ button[type=button]:disabled {
 .modal-message.modal-success .modal-header {
     color: #53a93f;
     border-bottom: 3px solid #a0d468;
+}
+
+.modal .modal-body {
+    max-height: 500px;
+    overflow-y: auto;
 }
