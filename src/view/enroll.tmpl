@@ -58,7 +58,7 @@
         </div>
 
         <div class="modal-footer">
-          <a data-toggle="modal" href="#myModal2" ng-click="temp = courseCtrl.registered(courseCtrl.eachCourse.id)" type="button" class="btn btn-default" data-dismiss="modal">Enroll</a>
+          <a data-toggle="modal" href="#modal-success" ng-click="temp = courseCtrl.registered(courseCtrl.eachCourse.id)" type="button" class="btn btn-default" data-dismiss="modal">Enroll</a>
           <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
         </div>
       </div> <!--end modal content-->
@@ -67,28 +67,21 @@
   </div> <!--end modal-->
 </div> <!--end div ng-model-->
 
-<!-- Modal -->
-<div class="modal fade" id="myModal2" role="dialog"> <!--start modal-->
-  <div class="modal-dialog"> <!--start modal dialog-->
-
-  <!-- Modal content-->
-    <div class="modal-content">
-
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Enrollment successful</h4>
-      </div>
-
-      <div class="modal-body">
-        <p>{{courseCtrl.temp.name.en}}</p>
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div> <!--end modal content-->
-
-  </div> <!--end modal dialog-->
-</div> <!--end modal-->
+<!--Success Modal Templates-->
+    <div id="modal-success" class="modal modal-message modal-success fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="glyphicon glyphicon-check"></i>
+                </div>
+                <div class="modal-title">Success</div>
+                <div class="modal-body">Now you're enrolled this course!</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
+                </div>
+            </div> <!-- / .modal-content -->
+        </div> <!-- / .modal-dialog -->
+    </div>
+    <!--End Success Modal Templates-->
 
 </div> <!--end div ng-model-->
