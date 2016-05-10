@@ -1,0 +1,94 @@
+<div ng-controller="EnrollController as courseCtrl">
+  <nav class="indexmenu">
+    <ul>
+      <li class="active"><a ui-sref="enroll">Registration</a></li>
+      <li><a ui-sref="withdraw">Withdrawal</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </nav>
+  <form class="search-container">
+    <input ng-model="searchText" type="text" id="search-bar">
+    <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+  </form><br><br>
+  <ul ng-repeat="x in courseCtrl.courses | toArray | filter:searchText" id="searchTextChange">
+    <section class="cards">
+      <div class="card with-badge"> <!--start card with-badge-->
+    		<div class="inner-wrap"> <!--start inner-wrap-->
+    			<p class="title">
+            <strong>{{x.name.en}}</strong><br>
+            {{x.id}}
+          </p>
+    			<p>{{x.description.en}}</p>
+    		</div> <!--end inner-wrap-->
+
+        <div class="action-bar"> <!--start action-bar-->
+    			<ul>
+    				<li class="comments">
+    					<p>Credit: {{x.credit.total}}({{x.credit.lecture}}-{{x.credit.lab}}-{{x.credit.self}})</p>
+    				</li>
+
+            <button ng-disabled="courseCtrl.isRegistered(x.id)" ng-click="courseCtrl.getEachCourse(x.id)" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Enroll</button>
+
+          </ul>
+    	  </div> <!--end action-bar-->
+      </div> <!--end cards with-badge-->
+    </section> <!--end cards section-->
+  </ul> <!--end div ng-repeat-->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog"> <!--start modal-->
+    <div class="modal-dialog"> <!--start modal dialog-->
+
+    <!-- Modal content-->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Are you sure you want to enroll this course?</h4>
+        </div>
+
+        <div class="modal-body">
+          <p><strong>{{courseCtrl.eachCourse.id}}</strong></p>
+          <p>{{courseCtrl.eachCourse.name.en}}</p>
+          <p>{{courseCtrl.eachCourse.description.en}}</p>
+          <p>{{courseCtrl.eachCourse.name.th}}</p>
+          <p>{{courseCtrl.eachCourse.description.th}}</p>
+          <p>Credit: {{courseCtrl.eachCourse.credit.total}}({{courseCtrl.eachCourse.credit.lecture}}-{{courseCtrl.eachCourse.credit.lab}}-{{courseCtrl.eachCourse.credit.self}})</p>
+        </div>
+
+        <div class="modal-footer">
+          <a data-toggle="modal" href="#myModal2" ng-click="temp = courseCtrl.registered(courseCtrl.eachCourse.id)" type="button" class="btn btn-default" data-dismiss="modal">Enroll</a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div>
+      </div> <!--end modal content-->
+
+    </div> <!--end modal dialog-->
+  </div> <!--end modal-->
+</div> <!--end div ng-model-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal2" role="dialog"> <!--start modal-->
+  <div class="modal-dialog"> <!--start modal dialog-->
+
+  <!-- Modal content-->
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Enrollment successful</h4>
+      </div>
+
+      <div class="modal-body">
+        <p>{{courseCtrl.temp.name.en}}</p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div> <!--end modal content-->
+
+  </div> <!--end modal dialog-->
+</div> <!--end modal-->
+
+</div> <!--end div ng-model-->

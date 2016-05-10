@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1em;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 1em;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px #ddd;
+}
+
+.card .inner-wrap {
+  padding: 1.5em;
+}
+.card .inner-wrap p:last-of-type {
+  margin-bottom: 0;
+}
+.card h3 {
+  margin: 0;
+  padding-bottom: 1em;
+  font-size: .8em;
+}
+
+.card .title {
+  line-height: 1.5;
+  font-size: 1.2em;
+  display: block;
+}
+.card p {
+  margin-top: 1em;
+  font-size: .9em;
+  color: #777;
+  line-height: 1.6;
+}
+.card a {
+  color: #2A91E7;
+  text-decoration: none;
+}
+.card .action-bar ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.card .action-bar li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-size: 1.1em;
+}
+.card .action-bar li a {
+  display: block;
+  padding: 1em 0;
+  /*color: #666;*/
+}
+.card .action-bar li a:hover, .card .action-bar li a:focus {
+  /*color: #000;*/
+  text-decoration: none;
+}
+.card .action-bar li.comments {
+  width: 60%;
+  text-align: left;
+  padding: 0 1.5em;
+}
+.card .action-bar li.comments .comments-link {
+  font-size: .7em;
+  font-weight: bold;
+}
+.card .action-bar li.share, .card .action-bar li.like {
+  width: 20%;
+}
+.card .action-bar li.share {
+  /*border: solid #eee;*/
+  border-width: 0 1px 0 0;
+}
+
+.search-container {
+  padding-top: 50px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+input#search-bar {
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  outline: none;
+}
+input#search-bar:focus {
+  border: 1px solid;
+  transition: 0.35s ease;
+}
+input#search-bar:focus::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+input#search-bar:focus::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+input#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+
+.search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -60px;
+  right: -15px;
+}
